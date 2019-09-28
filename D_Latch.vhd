@@ -13,10 +13,12 @@ end D_Latch;
 
 architecture D_Latch_arch of D_Latch is 
 begin
-    
-    if rising_edge(clk) = '1' then 
-        Q <= D;
-    end if ;
+    process(clk,D)
+    begin 
+        if rising_edge(clk) then 
+            Q <= D;
+        end if ;
+    end process;
 
 
 end architecture;
