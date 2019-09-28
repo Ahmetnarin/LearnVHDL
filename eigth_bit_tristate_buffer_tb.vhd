@@ -34,7 +34,7 @@ begin
     Test_bench_process : process
     begin 
 
-        for i in 
+        
         signal_IN_tb <= x"00"; enable <= '0'; wait for 10 ns;
         signal_IN_tb <= x"01"; enable <= '0'; wait for 10 ns;
         signal_IN_tb <= x"02"; enable <= '0'; wait for 10 ns;
