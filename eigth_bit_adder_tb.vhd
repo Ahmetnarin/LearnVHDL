@@ -15,7 +15,7 @@ architecture eigth_bit_adder_tb_arch of eigth_bit_adder_tb is
             B : in std_logic_vector(7 downto 0);
             Z : out std_logic_vector(7 downto 0);
             Y : out std_logic_vector(15 downto 0)
-           -- X : out std_logic_vector(7 downto 0)
+            
         );
     end component;
 
@@ -23,7 +23,7 @@ architecture eigth_bit_adder_tb_arch of eigth_bit_adder_tb is
     signal B_tb : std_logic_vector(7 downto 0);
     signal Z_tb : std_logic_vector(7 downto 0);
     signal Y_tb : std_logic_vector(15 downto 0);
-    --signal X_tb : std_logic_vector(7 downto 0);
+    
 
 begin
 

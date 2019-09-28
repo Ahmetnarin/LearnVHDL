@@ -10,7 +10,7 @@ port
     B : in std_logic_vector(7 downto 0);
     Z : out std_logic_vector(7 downto 0);
     Y : out std_logic_vector(15 downto 0)
-   -- X : out std_logic_vector(7 downto 0)
+   
 );
 end eigth_bit_adder;
 
@@ -18,7 +18,6 @@ architecture eigth_bit_adder_arch of eigth_bit_adder is
 
 begin
     Z (7 downto 0) <= A (7 downto 0) + B (7 downto 0);
-   -- X (7 downto 0) <= A (7 downto 0) - B (7 downto 0);
     Y (15 downto 0) <= A (7 downto 0) * B (7 downto 0);
 
 end eigth_bit_adder_arch ; -- eigth_bit_adder_arch
