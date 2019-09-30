@@ -38,38 +38,7 @@ begin
         signal_IN_tb <= x"00"; enable <= '0'; wait for 10 ns;
         signal_IN_tb <= x"01"; enable <= '0'; wait for 10 ns;
         signal_IN_tb <= x"02"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"03"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"04"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"05"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"06"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"07"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"08"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"09"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0A"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0B"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0C"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0D"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0E"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0F"; enable <= '0'; wait for 10 ns;
-
-        -----------------------------------------------------
-
-        signal_IN_tb <= x"00"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"01"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"02"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"03"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"04"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"05"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"06"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"07"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"08"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"09"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0A"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0B"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0C"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0D"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0E"; enable <= '0'; wait for 10 ns;
-        signal_IN_tb <= x"0F"; enable <= '0'; wait for 10 ns;
+      
     end process;
 
 end eight_bit_tristate_buffer_tb_arch ; -- eight_bit_tristate_buffer_tb_arch

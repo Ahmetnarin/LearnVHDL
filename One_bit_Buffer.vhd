@@ -22,7 +22,7 @@ begin
         if Enable = '1' then
             Signal_OUT <= Signal_IN;
         else 
-            Signal_OUT <= 'Z';
+            Signal_OUT <= '0';
         end if ;
 
     end process;
